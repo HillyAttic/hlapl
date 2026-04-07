@@ -14,7 +14,7 @@
   "services": [
     {
       "binding": "WORKER_SELF_REFERENCE",
-      "service": "lawify-nextjs"
+      "service": "hlapl"
     }
   ],
   "images": {
