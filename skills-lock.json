@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "skills": {
+    "cloudflare-opennext": {
+      "source": "null-shot/cloudflare-skills",
+      "sourceType": "github",
+      "computedHash": "0123215c21cd48aafef79cb62cb627bccd1487cc671552fb28aa3ac3d31d483d"
+    }
+  }
+}
