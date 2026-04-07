@@ -3,8 +3,40 @@ import Image from 'next/image'
 
 export default function Header() {
   return (
-    <div className="header-wrapper">
-      <div className="header-top">
+    <>
+      <div className="mobile-nav__wrapper">
+        <div className="mobile-nav__overlay mobile-nav__toggler"></div>
+        <div className="mobile-nav__content">
+          <span className="mobile-nav__close mobile-nav__toggler">
+            <i className="fa fa-times"></i>
+          </span>
+          <div className="logo-box">
+            <a href="/" aria-label="logo image">
+              <img src="/images/logo.png" width="155" alt="" />
+            </a>
+          </div>
+          <div className="mobile-nav__container"></div>
+          <ul className="mobile-nav__contact list-unstyled">
+            <li>
+              <i className="fa fa-envelope"></i>
+              <a href="mailto:example@gmail.com">example@gmail.com</a>
+            </li>
+            <li>
+              <i className="fa fa-phone-alt"></i>
+              <a href="tel:+12125556789">+1 212-555-6789</a>
+            </li>
+          </ul>
+          <div className="mobile-nav__social">
+            <a href="#"><i className="fab fa-facebook"></i></a>
+            <a href="#"><i className="fab fa-instagram"></i></a>
+            <a href="#"><i className="fab fa-twitter"></i></a>
+            <a href="#"><i className="fab fa-linkedin"></i></a>
+          </div>
+        </div>
+      </div>
+      
+      <div className="header-wrapper">
+        <div className="header-top">
         <div className="container-fluid">
           <div className="header-top-wrapper">
             <div className="left-contact-block">
@@ -154,5 +186,6 @@ export default function Header() {
         </div>
       </header>
     </div>
+    </>
   )
 }
