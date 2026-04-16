@@ -1,6 +1,6 @@
-# Lawify - Next.js Law Firm Website
+# HLAPL - Next.js Law Firm Website
 
-This is a Next.js conversion of the Lawify HTML template, preserving all original fonts, images, and layout.
+This is a Next.js conversion of the HLAPL HTML template, preserving all original fonts, images, and layout.
 
 ## Getting Started
 
